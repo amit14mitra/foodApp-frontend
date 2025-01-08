@@ -1,0 +1,16 @@
+.show-modal {
+  /* Ensure that these styles do not prevent the modal from showing */
+  /* display: none; - This will prevent the modal from showing */
+  position: fixed; /* Ensure it is fixed */
+  top: 50%; /* Center the modal vertically */
+  left: 50%; /* Center the modal horizontally */
+  transform: translate(-50%, -50%); /* Offset for centering */
+  z-index: 1000; /* Make sure it's above other content */
+  background: white; /* Set a background color */
+  padding: 20px; /* Add padding */
+  border-radius: 8px; /* Optional styling */
+}
+
+.cancel-button {
+  margin-left: 10px;
+}
